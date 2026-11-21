@@ -22,6 +22,16 @@ It keeps happening. In the 2022 Black Friday sweep, consumer authorities found v
 - **The Struck agent in Rovo** checks a promotion, explains a failed line, reads a free-text brief into lines, and changes data only after the person confirms Rovo's review card.
 - **For any agent, through MCP.** Four read actions (get the prior price, check a price claim, check a promotion, explain a line) are listed in a `rovo:mcp` module, so a customer's own Rovo Studio agent can call them before it writes copy.
 
+## Screenshots
+
+![The Court's bananas: Struck finds no reduction at all](docs/screenshots/04-court-bananas-panel.png)
+
+![The workflow gate names the failing lines](docs/screenshots/06-workflow-gate-blocked.png)
+
+![A no-code Rovo Studio agent calls Struck's MCP tools](docs/screenshots/11-studio-agent-answer.png)
+
+More in [docs/screenshots](docs/screenshots).
+
 ## How it is built
 
 | Path | What it is |
